@@ -13,6 +13,7 @@
 		E6440F331DC0203B008D2A04 /* DoIt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E6440F311DC0203B008D2A04 /* DoIt.xcdatamodeld */; };
 		E6440F351DC0203B008D2A04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6440F341DC0203B008D2A04 /* Assets.xcassets */; };
 		E6440F381DC0203B008D2A04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6440F361DC0203B008D2A04 /* LaunchScreen.storyboard */; };
+		E6440F401DC029AB008D2A04 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6440F3F1DC029AB008D2A04 /* Task.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E6440F341DC0203B008D2A04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6440F371DC0203B008D2A04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6440F391DC0203B008D2A04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6440F3F1DC029AB008D2A04 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				E6440F2A1DC0203B008D2A04 /* AppDelegate.swift */,
 				E6440F2C1DC0203B008D2A04 /* ViewController.swift */,
 				E6440F2E1DC0203B008D2A04 /* Main.storyboard */,
+				E6440F3F1DC029AB008D2A04 /* Task.swift */,
 				E6440F341DC0203B008D2A04 /* Assets.xcassets */,
 				E6440F361DC0203B008D2A04 /* LaunchScreen.storyboard */,
 				E6440F391DC0203B008D2A04 /* Info.plist */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6440F401DC029AB008D2A04 /* Task.swift in Sources */,
 				E6440F331DC0203B008D2A04 /* DoIt.xcdatamodeld in Sources */,
 				E6440F2D1DC0203B008D2A04 /* ViewController.swift in Sources */,
 				E6440F2B1DC0203B008D2A04 /* AppDelegate.swift in Sources */,
@@ -289,6 +293,7 @@
 				E6440F3E1DC0203B008D2A04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
